@@ -1,6 +1,6 @@
 # mow.cli
-![CI](https://github.com/jawher/mow.cli/workflows/CI/badge.svg)
-[![GoDoc](https://pkg.go.dev/badge/github.com/jawher/mow.cli)](https://pkg.go.dev/github.com/jawher/mow.cli)
+![CI](https://github.com/daemtri/nowcli/workflows/CI/badge.svg)
+[![GoDoc](https://pkg.go.dev/badge/github.com/daemtri/nowcli)](https://pkg.go.dev/github.com/daemtri/nowcli)
 [![Coverage Status](https://coveralls.io/repos/github/jawher/mow.cli/badge.svg?branch=master)](https://coveralls.io/github/jawher/mow.cli?branch=master)
 
 {{.Synopsis}}
@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jawher/mow.cli"
+	"github.com/daemtri/nowcli"
 )
 
 func main() {
@@ -66,7 +66,7 @@ import (
 	"fmt"
 	"os"
 
-	cli "github.com/jawher/mow.cli"
+	cli "github.com/daemtri/nowcli"
 )
 
 type Config struct {
@@ -117,7 +117,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jawher/mow.cli"
+	"github.com/daemtri/nowcli"
 )
 
 func main() {
@@ -185,7 +185,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jawher/mow.cli"
+	"github.com/daemtri/nowcli"
 )
 
 // Global options available to any of the commands

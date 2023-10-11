@@ -3,7 +3,7 @@ package matcher
 import (
 	"strings"
 
-	"github.com/jawher/mow.cli/internal/container"
+	"github.com/daemtri/nowcli/internal/container"
 )
 
 // NewOptions create an Options matcher which can parse a group of options

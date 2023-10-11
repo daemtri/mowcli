@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/jawher/mow.cli/internal/container"
-	"github.com/jawher/mow.cli/internal/flow"
+	"github.com/daemtri/nowcli/internal/container"
+	"github.com/daemtri/nowcli/internal/flow"
 )
 
 /*
@@ -31,7 +31,6 @@ name and description will be used to construct the help message for the app:
 	Usage: $name [OPTIONS] COMMAND [arg...]
 
 	$desc
-
 */
 func App(name, desc string) *Cli {
 	return &Cli{
@@ -51,7 +50,6 @@ printing the version string via the CLI.
 
 	Usage: appName --$name
 	$version
-
 */
 func (cli *Cli) Version(name, version string) {
 	cli.Bool(BoolOpt{

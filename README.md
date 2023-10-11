@@ -1,6 +1,6 @@
 # mow.cli
-![CI](https://github.com/jawher/mow.cli/workflows/CI/badge.svg)
-[![GoDoc](https://pkg.go.dev/badge/github.com/jawher/mow.cli)](https://pkg.go.dev/github.com/jawher/mow.cli)
+![CI](https://github.com/daemtri/nowcli/workflows/CI/badge.svg)
+[![GoDoc](https://pkg.go.dev/badge/github.com/daemtri/nowcli)](https://pkg.go.dev/github.com/daemtri/nowcli)
 [![Coverage Status](https://coveralls.io/repos/github/jawher/mow.cli/badge.svg?branch=master)](https://coveralls.io/github/jawher/mow.cli?branch=master)
 
 Package cli provides a framework to build command line applications in Go with most of the burden of arguments parsing and validation placed on the framework instead of the user.
@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jawher/mow.cli"
+	"github.com/daemtri/nowcli"
 )
 
 func main() {
@@ -66,7 +66,7 @@ import (
 	"fmt"
 	"os"
 
-	cli "github.com/jawher/mow.cli"
+	cli "github.com/daemtri/nowcli"
 )
 
 type Config struct {
@@ -117,7 +117,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jawher/mow.cli"
+	"github.com/daemtri/nowcli"
 )
 
 func main() {
@@ -185,7 +185,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jawher/mow.cli"
+	"github.com/daemtri/nowcli"
 )
 
 // Global options available to any of the commands
@@ -257,7 +257,7 @@ command line tools.  The following is a comparison to the built-in flag package
 as well as the popular urfave/cli (formerly known as codegangsta/cli):
 
 |                                                                     | mow.cli | urfave/cli | flag |
-|---------------------------------------------------------------------|---------|------------|------|
+| ------------------------------------------------------------------- | ------- | ---------- | ---- |
 | Contextual help                                                     | ✓       | ✓          |      |
 | Commands                                                            | ✓       | ✓          |      |
 | Option folding `-xyz`                                               | ✓       |            |      |
@@ -275,7 +275,7 @@ set of flag and argument validation. It does, however, fall short for many use
 cases including:
 
 |                            | mow.cli | docopt |
-|----------------------------|---------|--------|
+| -------------------------- | ------- | ------ |
 | Contextual help            | ✓       |        |
 | Backtracking `SRC... DST`  | ✓       |        |
 | Backtracking `[SRC] DST`   | ✓       |        |
@@ -286,7 +286,7 @@ cases including:
 To install this package, run the following:
 
 ```shell
-go get github.com/jawher/mow.cli
+go get github.com/daemtri/nowcli
 ```
 
 # Package Documentation

@@ -5,15 +5,14 @@ import (
 
 	"fmt"
 
-	"github.com/jawher/mow.cli/internal/container"
-	"github.com/jawher/mow.cli/internal/matcher"
-	"github.com/jawher/mow.cli/internal/values"
+	"github.com/daemtri/nowcli/internal/container"
+	"github.com/daemtri/nowcli/internal/matcher"
+	"github.com/daemtri/nowcli/internal/values"
 )
 
 /*
 State is the basic building block in the FSM.
 A State can be final or not, and has transitions to other states
-
 */
 type State struct {
 	Terminal    bool

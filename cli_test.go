@@ -13,7 +13,7 @@ import (
 
 	"fmt"
 
-	"github.com/jawher/mow.cli/internal/flow"
+	"github.com/daemtri/nowcli/internal/flow"
 )
 
 func TestTheCpCase(t *testing.T) {
